@@ -17,3 +17,6 @@ commands:
    scinventory:
       usage: /scinventory <player>
       description: See inventory of another player.
+   scping:
+      usage: /scping
+      description: Check your latency.
