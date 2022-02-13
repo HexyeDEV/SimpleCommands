@@ -15,7 +15,7 @@ public class InventoryCommand implements CommandExecutor {
 			sender.sendMessage("Please use this command only within game");
 			return true;
 		} else {
-			if (sender.hasPermission("SimpleCommands.inventory")) {
+			if (sender.hasPermission("simplecommands.inventory")) {
 				if (args.length != 0) {
 					Player p = (Player) sender;
 					if (sender.getServer().getPlayer(args[0]) != null) {
