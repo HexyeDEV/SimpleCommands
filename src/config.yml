@@ -1,0 +1,23 @@
+# NEDDED SETTINGS
+
+# Prefix for command responses.
+prefix: '&a[SimpleCommands]'
+
+# Prefix for broadcast.
+bc_prefix: '&a[BROADCAST]'
+
+# JOIN MESSAGES HERE
+
+# PLACEHOLDERS: <player> = The player who joined the server.
+
+# If true it will display 'firstJoin_message' when someone joins the server for the first time, set it to false to disable it.
+firstJoin_broadcast: true
+
+# This message will be displayed broadcasted when a user joins the server for the first time.
+firstJoin_message: '&a<player> has joined the server for the first time!'
+
+# If true it will display 'join_message' when someone joins the server, set it to false to disable it.
+join_broadcast: true
+
+# This message will be displayed broadcasted when a user joins the server.
+join_message: '&a<player> has joined the server!'
